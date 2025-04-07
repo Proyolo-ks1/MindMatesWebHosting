@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Email Verified!</title>
+  <!-- Link to external style.css -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🎉 Email verified successfully!</h1>
-  <p>You can now return to the MindMates app and log in.</p>
+  <div class="container">
+    <!-- Top row with the logo text -->
+    <div class="top-row">
+      <img src="assets/MindMates-Logo-Just-Text.svg" alt="MindMates Logo" class="logo-text">
+    </div>
+
+    <!-- Bottom row split into three columns -->
+    <div class="bottom-row">
+      <div class="column-left">
+        <img src="assets/MindMates-Logo-No-Text.svg" alt="MindMates Logo" class="logo-no-text">
+      </div>
+      <div class="column-middle">
+        <h1>Email Verified Successfully!<br>🎉</h1>
+        <p>You can now return to the MindMates app and log in.</p>
+        <a href="mindmates://verify" class="button">Back to the MindMates App</a>
+      </div>
+      <div class="column-right">
+        <img src="assets/MindMates-Logo-No-Text.svg" alt="MindMates Logo" class="logo-no-text">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </div>
 </body>
 </html>
